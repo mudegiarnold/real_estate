@@ -9,5 +9,5 @@ const SigbIn = () => {
 	)
 }
 
-export default SignIn;
+
 		
