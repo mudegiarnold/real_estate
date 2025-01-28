@@ -1,0 +1,9 @@
+{
+	  "name": "iOS Development",
+	    "image": "mcr.microsoft.com/vscode/devcontainers/base:ubuntu",
+	      "overrideCommand": false,
+	        "mounts": ["source=codespace-vscode,target=/home/vscode/.vscode-server/extensions,type=volume"],
+		  "remoteUser": "vscode",
+		    "extensions": ["ms-vscode.cpptools", "ms-vscode-remote.vscode-remote-extensionpack"],
+		      "postCreateCommand": "brew install cocoapods && sudo gem install cocoapods"
+}
